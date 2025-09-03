@@ -5,7 +5,7 @@ It is built with **ASP.NET Core 7** and communicates with a **SQL Server** datab
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 - RESTful API for managing:
   - Trainees
@@ -19,7 +19,7 @@ It is built with **ASP.NET Core 7** and communicates with a **SQL Server** datab
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -34,16 +34,17 @@ It is built with **ASP.NET Core 7** and communicates with a **SQL Server** datab
 2. Set your connection string
 Update the connection string in appsettings.json:
 
-"ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER_NAME; Database=TrainMateDb; Trusted_Connection=True;TrustServerCertificate=True;"
-}
+    "ConnectionStrings": {
+      "DefaultConnection": "Server=YOUR_SERVER_NAME; Database=TrainMateDb; Trusted_Connection=True;TrustServerCertificate=True;"
+    }
 
 3. Apply database migrations
-dotnet ef database update
-
+   ```bash
+   dotnet ef database update
 4. Run the application
-dotnet run
-
+   ```bash
+   dotnet run
+   
 ### Default URL for Swagger: https://localhost:7225/swagger/index.html
 
 ## Technologies Used
