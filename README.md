@@ -35,8 +35,7 @@ It is built with **ASP.NET Core 7** and communicates with a **SQL Server** datab
 Update the connection string in appsettings.json:
 
     "ConnectionStrings": {
-      "DefaultConnection": "Server=YOUR_SERVER_NAME; Database=TrainMateDb; Trusted_Connection=True;TrustServerCertificate=True;"
-    }
+    "DefaultConnection": "Server=YOUR_SERVER_NAME; Database=TrainMateDb; Trusted_Connection=True;TrustServerCertificate=True;" }
 
 3. Apply database migrations
    ```bash
