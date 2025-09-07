@@ -32,7 +32,7 @@ It is built with **ASP.NET Core 7** and communicates with a **SQL Server** datab
    ```bash
    git clone https://github.com/YOUR_USERNAME/TrainMateServer.git
 2. Set your connection string
-Update the connection string in appsettings.json:
+Update the connection string in Program.cs file:
 
     "ConnectionStrings": {
     "DefaultConnection": "Server=YOUR_SERVER_NAME; Database=TrainMateDb; Trusted_Connection=True;TrustServerCertificate=True;" }
